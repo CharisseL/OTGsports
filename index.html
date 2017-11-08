@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Stylish Portfolio - Start Bootstrap Template</title>
+    <title>OTG Sports Management</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,19 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!--Camera JS file-->
+    <script src='js/camera.js'></script>
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
+    <script>
+        $(window).load( function(){
+
+        	   jQuery('.camera_wrap').camera();
+
+        });
+    </script>
 
   </head>
 
@@ -58,15 +71,25 @@
       <div class="text-vertical-center">
         <h1>OTG Sports Management</h1>
         <h3>Football + Family</h3>
-        <h5>You ball on the field. We take care of the rest.</h5>
         <br>
         <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Find Out More</a>
       </div>
+
+      <!--==============================slider=================================-->
+      <div class="slider">
+          <div class="camera_wrap">
+            <div data-src="img/otg_gamenites.png"></div>
+            <div data-src="img/otg_gamenites.png"></div>
+            <div data-src="img/otg_gamenites.png"></div>
+          </div>
+      </div>
+
     </header>
 
     <!-- About -->
     <section id="about" class="about">
       <div class="container text-center">
+        <h2>You ball on the field. We take care of the rest.</h2>
         <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
         <p class="lead">This theme features some wonderful photography courtesy of
           <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
