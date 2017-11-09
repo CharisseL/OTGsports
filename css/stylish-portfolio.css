@@ -164,6 +164,22 @@ hr.small {
   background-size: cover;
 }
 
+.carousel-inner > .carousel-item > img {
+    width: 50%;
+    margin: auto;
+}
+
+#carouselSlides {
+  background: url(../img/dust_scratches.png) no-repeat center center scroll;
+  /* width: 100%;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 
 /* About */
 
