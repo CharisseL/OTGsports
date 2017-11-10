@@ -15,6 +15,11 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  font-family: 'Black Ops One', cursive;
+  color: #228B22;
+}
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
