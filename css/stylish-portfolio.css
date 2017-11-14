@@ -15,9 +15,10 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1 {
+.otg_logoHeader {
   font-family: 'Black Ops One', cursive;
-  color: #228B22;
+  color: #858585;
+  stroke: #050f2c;
 }
 
 .text-vertical-center {
@@ -184,20 +185,17 @@ hr.small {
   background-size: cover;
 }
 
-
-
-
 /* About */
 
 .about {
   padding: 50px 0;
 }
 
-
 /* Services */
 
 .services {
   padding: 50px 0;
+  background-color: #050f2c !important;
 }
 
 .service-item {
@@ -243,6 +241,7 @@ hr.small {
 
 .call-to-action {
   padding: 50px 0;
+  background-color: #050f2c!important;
 }
 
 .call-to-action .btn {
